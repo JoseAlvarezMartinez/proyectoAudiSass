@@ -1,0 +1,8 @@
+footer{
+    @extend %flexBasico;
+    gap: 2rem;
+    img{
+        width: 5rem;
+        object-fit: cover;
+    }
+}

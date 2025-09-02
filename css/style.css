@@ -1,0 +1,50 @@
+footer, .flexbox-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-contenedor-inferior {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.logotipo {
+  width: 6rem;
+}
+
+.header-background {
+  background-image: url(../../img/autosHeaderBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+
+.header-contenedor-inferior section {
+  background-color: rgba(0, 0, 0, 0.702);
+}
+
+.card-main {
+  max-width: 25rem;
+}
+.card-main img {
+  max-width: 30rem;
+}
+
+footer {
+  gap: 2rem;
+}
+footer img {
+  width: 5rem;
+  object-fit: cover;
+}
+
+.carouselFoto {
+  height: 30rem;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

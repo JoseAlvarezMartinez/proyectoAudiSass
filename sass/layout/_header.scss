@@ -1,0 +1,16 @@
+.logotipo {
+  width: 6rem;
+}
+.header-background {
+  background-image: url(../../img/autosHeaderBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+.header-contenedor-inferior {
+  @extend %flexAvanzado;
+
+  section{
+    background-color: rgba(0, 0, 0, 0.702);
+  }
+}
